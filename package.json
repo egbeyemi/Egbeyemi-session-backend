@@ -1,14 +1,17 @@
 {
-  "name": "egbeyemi-md-session-backend",
+  "name": "egbeyemi-md-session",
   "version": "1.0.0",
-  "description": "WhatsApp bot session QR server",
+  "description": "Session generator for WhatsApp bot using Baileys",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
+  "keywords": ["whatsapp", "baileys", "bot", "session", "qr", "pair"],
+  "author": "Egbeyemi",
+  "license": "ISC",
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.6.0",
+    "@whiskeysockets/baileys": "^6.7.2",
     "express": "^4.18.2",
-    "qrcode-terminal": "^0.12.0"
+    "pino": "^8.14.1"
   }
 }
