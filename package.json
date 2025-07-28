@@ -1,0 +1,14 @@
+{
+  "name": "egbeyemi-md-session-backend",
+  "version": "1.0.0",
+  "description": "WhatsApp bot session QR server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "express": "^4.18.2",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
